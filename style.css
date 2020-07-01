@@ -101,6 +101,13 @@ header nav ul li a{
     text-shadow: 2px 2px 2px rgb(36, 36, 36);
 }
 
+
+/*Attractions Section*/
+
+#container-gray {
+    background-color: rgb(196, 196, 196);
+}
+
 .section-container {
     width: 100%;
     min-height: 100vh;
@@ -109,6 +116,7 @@ header nav ul li a{
 
 .section-header h2 {
     margin: 0 auto;
+    padding-top: 20px;
     width: fit-content;
     font-family: 'Lora';
     font-size: 3em;
@@ -172,6 +180,7 @@ header nav ul li a{
     width: 100%;
     min-height: 30px;
     background-color: rgb(71, 71, 71);
+    padding-top: 30px;
 }
 
 .footer-logo {
