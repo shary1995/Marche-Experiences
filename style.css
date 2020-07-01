@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lora';
+}
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+header .header-logo {
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 30px;
+    padding-left: 60px;
+    float: left;
+    color: rgb(71, 71, 71);
+    display: block;
+}
+
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    line-height: 65px;
+    float: right;
+    padding-right: 130px;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 5px;
+}
+
+header nav ul li a{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(41, 41, 41);
+    text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 550px) {
+ 
+    header .header-logo {
+        font-size: 22px;
+        font-weight: 800;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    
+
+    header nav ul{
+        line-height: 50px;
+        float: none;
+    }
+
+    header nav ul li {
+        padding: 0px 10px;
+    }
+
+}
+
+.main-banner {
+    max-width: 100%;
+    padding: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('marche_background.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background: rgba(black, black, black, .7);
+}
+
+
+.header-banner h1 {
+    font-family: 'Lora';
+    font-size: 3em;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 auto;
+    text-shadow: 2px 2px 2px rgb(36, 36, 36);
+}
+
+.section-container {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 30px;
+}
+
+.section-header h2 {
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Lora';
+    font-size: 3em;
+    font-weight: 600;
+    color:  rgb(41, 41, 41);
+}
+
+.section-elements {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+.section-elements-content {
+    width: 400px;
+}
+
+.section-elements-content .gallery-img {
+    flex-basis: 250px;
+    padding: 15px 55px;
+    justify-content: space-around;
+}
+
+.section-elements-content img{
+    width: 350px;
+    height: 250px;
+    text-align: center;
+}
+
+.gallery-img:hover {
+    opacity: .7;
+    transition: .7s;
+}
+
+.section-elements-content h3 {
+    font-size: 20px;
+    padding-left: 53px;
+}
+
+.section-elements-content p{
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 0px 0px 43px;
+}
+
+.section-elements-content button {
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+
+/*Footer*/
+
+.footer-container {
+    width: 100%;
+    min-height: 30px;
+    background-color: rgb(71, 71, 71);
+}
+
+.footer-logo {
+    width: 100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .footer-logo {
+        display: none;
+    }
+}
+
+.footer-section {
+    width: 100%;
+}
+
+.footer-section ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.footer-section ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 70px 90px;
+}
+
+.footer-section ul li a{
+    font-family: 'Lora';
+    font-size: 13px;
+    font-weight: 400;
+    color: #f5f3f3;
+    text-transform: uppercase;
+}
+
+
+/* Style all font awesome icons */
+
+.footer-media-section {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-media-section a {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.fa {
+    
+    margin: 0px 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    background: #f5f3f3;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 100px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+.footer-copyright {
+    padding: 50px 0px 10px 0px;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    color: #f5f3f3;
+}
