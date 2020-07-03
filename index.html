@@ -10,11 +10,16 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+
     <body>
         <div class="index-banner">
         <header>
             <a href="#" class="header-logo">Logo</a>
             <nav>
+                <div class="toggle">
+                    <i id="bar" class="fa fa-bars menu" aria-hidden="true"></i>
+                  </div>
+
                 <ul>
                     <li><a href="#about-link">Chi Siamo</a></li>
                     <li><a href="#beaches-link">Stabilimenti Balneari</a></li>
@@ -45,6 +50,7 @@
           </div>
 
           <div id="container-gray" class="section-container">
+              
             <div id="guides-link" class="section-header">
                 <h2>Visite Guidate</h2>
             </div>
@@ -139,5 +145,14 @@
                 </div>
               </div>
           </footer>
+
+          <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.menu').click(function(){
+        $('ul').toggleClass('active');
+      })
+    })
+  </script>
     </body>
     </html>
