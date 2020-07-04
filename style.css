@@ -19,29 +19,29 @@ body {
 
 header {
     width: 100%;
-    height: 70px;
+    height: 80px;
     background: #04336d;
-
+    position: relative;
 }
 
 header .header-logo {
-    font-size: 24px;
-    font-weight: 900;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 20px 0;
-    line-height: 30px;
-    padding-left: 60px;
+    line-height: 2px;
     float: left;
-    color: #fff;
     display: block;
+}
+
+.header-logo img {
+    position: absolute;
+    width: 220px;
+    height: 85px;
+    top: 0;
 }
 
 header nav ul{
     display: block;
     margin: 0 auto;
     width: fit-content;
-    line-height: 65px;
+    line-height: 75px;
     float: right;
     padding-right: 130px;
 }
@@ -61,7 +61,6 @@ header nav ul li a{
 
  .toggle {
     width: 100%;
-    background: #001f44;
     text-align: right;
     font-size: 25px;
     display: none;
@@ -91,6 +90,7 @@ header nav ul li a{
         width: 100%;
         display: none;
         padding-right: 0px;
+        padding-top: 20px;
     }
 
     header nav ul li {
@@ -134,7 +134,7 @@ header nav ul li a{
 /*Attractions Section*/
 
 #container-gray {
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(233, 233, 233);
 }
 
 .section-container {
@@ -151,6 +151,8 @@ header nav ul li a{
     font-size: 2em;
     font-weight: 600;
     color:  rgb(41, 41, 41);
+    padding-bottom: 2.5em;
+    letter-spacing: 0.1em;
 }
 
 .section-elements {
@@ -159,7 +161,6 @@ header nav ul li a{
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    margin-top: 100px;
 }
 
 .section-elements-content {
@@ -191,6 +192,51 @@ header nav ul li a{
     padding: 10px 0px 0px 50px;
 }
 
+@media screen and (max-width: 400px) {
+    .section-header h2 {
+        letter-spacing: normal;
+    }
+}
+
+/*About Page*/
+
+.about-banner {
+    max-width: 100%;
+    padding: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('marche-sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background: rgba(black, black, black, .7);
+}
+
+.content-section {
+    margin: 10em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4em 1.5em;
+}
+.section-about-header {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: rgb(41, 41, 41);
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 2em;
+}
+
+.about-band-image {
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 50%;
+}
 
 
 
