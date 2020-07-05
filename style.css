@@ -139,7 +139,7 @@ header nav ul li a{
 
 .section-container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     margin-top: 30px;
 }
 
@@ -184,13 +184,11 @@ header nav ul li a{
     transition: .7s;
 }
 
-.section-elements-content h3 {
-    padding-left: 53px;
+.section-elements-content h3, p {
+    padding: 7px 35px 0px 53px;
 }
 
-.section-elements-content p{
-    padding: 10px 0px 0px 50px;
-}
+
 
 .request-button {
     width: fit-content;
@@ -220,10 +218,10 @@ header nav ul li a{
         letter-spacing: normal;
         padding-bottom: 2em;
     }
-    
+
     .section-container {
-    min-height: 70vh;
-}
+        min-height: 70vh;
+    }
 }
 
 /*About Page*/
@@ -266,6 +264,44 @@ header nav ul li a{
     border-radius: 50%;
 }
 
+
+/*Contacts Page*/
+
+.contacts-banner {
+    max-width: 100%;
+    padding: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('marche-countryside.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    ;
+}
+
+.section-elements-contact {
+    width: fit-content;
+    font-size: 17px;
+    padding: 3em;
+}
+
+.section-elements-contact h3 {
+    padding-bottom: 1em;
+}
+
+.section-elements-contact a {
+    padding-bottom: 1em;
+}
+
+.section-elements-contact-details {
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 400px) {
+    .section-elements-contact {
+        padding: 1.5em;
+    }
+}
 
 
 /*Footer*/
