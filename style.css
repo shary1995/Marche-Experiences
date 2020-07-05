@@ -219,6 +219,10 @@ header nav ul li a{
     .section-header h2 {
         letter-spacing: normal;
     }
+    
+    .section-container {
+    min-height: 70vh;
+}
 }
 
 /*About Page*/
