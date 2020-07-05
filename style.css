@@ -167,7 +167,7 @@ header nav ul li a{
 .section-elements-content {
     width: 500px;
     font-size: 17px;
-    padding: 15px;
+    padding: 20px 15px;
 }
 
 .section-elements-content .gallery-img {
@@ -221,7 +221,7 @@ header nav ul li a{
     }
 
     .section-container {
-        min-height: 60vh;
+        min-height: 75vh;
     }
 }
 
