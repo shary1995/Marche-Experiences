@@ -264,6 +264,11 @@ header nav ul li a{
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 500px) {
+    .about-band-image{
+    margin-left: 3em;
+    }
+}
 
 /*Contacts Page*/
 
