@@ -153,6 +153,7 @@ header nav ul li a{
     color:  rgb(41, 41, 41);
     padding-bottom: 2.5em;
     letter-spacing: 0.1em;
+    text-align: center;
 }
 
 .section-elements {
@@ -216,11 +217,11 @@ header nav ul li a{
 @media screen and (max-width: 400px) {
     .section-header h2 {
         letter-spacing: normal;
-        padding-bottom: 2em;
+        padding-bottom: 1.6em;
     }
 
     .section-container {
-        min-height: 70vh;
+        min-height: 60vh;
     }
 }
 
