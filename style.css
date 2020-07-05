@@ -297,6 +297,10 @@ header nav ul li a{
     padding-bottom: 1em;
 }
 
+.section-elements-contact-details p {
+    padding-left: 2px;
+}
+
 @media only screen and (max-width: 400px) {
     .section-elements-contact {
         padding: 1.5em;
