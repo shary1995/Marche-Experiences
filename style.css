@@ -20,7 +20,7 @@ body {
 header {
     width: 100%;
     height: 80px;
-    background: #fff;
+    background: #04336d;
     position: relative;
 }
 
@@ -32,8 +32,8 @@ header .header-logo {
 
 .header-logo img {
     position: absolute;
-    width: 220px;
-    height: 85px;
+    width: 210px;
+    height: 80px;
     top: 0;
 }
 
@@ -55,7 +55,7 @@ header nav ul li {
 header nav ul li a{
     font-size: 13px;
     font-weight: 600;
-    color: rgb(41, 41, 41);
+    color: #fff;
     text-transform: uppercase;
 }
 
@@ -192,6 +192,29 @@ header nav ul li a{
     padding: 10px 0px 0px 50px;
 }
 
+.request-button {
+    width: fit-content;
+    margin: 3em auto;
+    
+}
+
+.request-button a {
+    border: 2px solid #f3f3f3;
+    background-color: #04336d;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.3em;
+    line-height: 100px;
+    text-align: center;
+    padding: 0.2em 0.7em;
+    transition: 0.3s ease-in-out;
+}
+
+.request-button a:hover {
+    opacity: .8;
+}
+
 @media screen and (max-width: 400px) {
     .section-header h2 {
         letter-spacing: normal;
@@ -250,9 +273,14 @@ header nav ul li a{
 }
 
 .footer-logo {
-    width: 100px;
+    width: fit-content;
     margin: 0 auto;
-    padding: 20px;
+    
+}
+
+.footer-logo img {
+    width: 230px;
+    height: 100px;
 }
 
 @media screen and (max-width: 400px) {
