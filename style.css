@@ -265,6 +265,10 @@ header nav ul li a{
     border-radius: 50%;
 }
 
+.content-section-container span {
+   font-weight: 600;
+}
+
 @media only screen and (max-width: 500px) {
     .about-band-image{
     margin-left: 3em;
