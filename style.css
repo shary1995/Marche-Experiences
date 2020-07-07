@@ -271,7 +271,9 @@ span {
 
 @media only screen and (max-width: 500px) {
     .about-band-image{
-    margin-left: 3em;
+        margin-left: 3em;
+        width: 230px;
+        height: 230px;
     }
 }
 
